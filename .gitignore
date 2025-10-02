@@ -3,5 +3,10 @@
 .nx/workspace-data
 node_modules
 
+# Build outputs
+dist
+out-tsc
+test-output
+
 vite.config.*.timestamp*
 vitest.config.*.timestamp*

@@ -3,6 +3,9 @@
   "include": [],
   "references": [
     {
+      "path": "../../packages/puck-code-snippet"
+    },
+    {
       "path": "./tsconfig.app.json"
     }
   ],
