@@ -76,3 +76,24 @@ npx nx affected -t test
 - **Cache**: Build, test, lint, and typecheck tasks are cached by Nx
 - **Vite**: Used for both building and dev serving across all projects
 - **Vitest**: Testing framework with coverage support (coverage output to `{projectRoot}/test-output/vitest/coverage`)
+
+## Code Quality Guidelines
+
+**Before completing any task, always:**
+
+1. **Run linting** on modified projects:
+   ```bash
+   npx nx lint <project-name>
+   ```
+
+2. **Run type checking** on modified projects:
+   ```bash
+   npx nx typecheck <project-name>
+   ```
+
+3. **Clean up unused files** - Remove any files, imports, or dependencies that are no longer needed
+
+4. **Verify builds pass** for affected projects:
+   ```bash
+   npx nx build <project-name>
+   ```

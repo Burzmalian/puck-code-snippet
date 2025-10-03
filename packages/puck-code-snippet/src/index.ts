@@ -1,2 +1,1 @@
-
-export * from './lib/puck-code-snippet';
+export { createPlugin } from "./lib/plugin";

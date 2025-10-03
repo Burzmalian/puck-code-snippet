@@ -42,7 +42,11 @@
     "vitest": "^3.0.0"
   },
   "dependencies": {
+    "@measured/puck": "^0.20.2",
+    "lucide-react": "^0.544.0",
+    "prettier": "^3.6.2",
     "react": "19.0.0",
-    "react-dom": "19.0.0"
+    "react-dom": "19.0.0",
+    "react-element-to-jsx-string": "^17.0.1"
   }
 }
